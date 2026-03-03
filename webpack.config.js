@@ -6,6 +6,7 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
     './Component': './src/app/app.ts',
+    './Carrinho': './src/carrinho/carrinho.ts',
   },
 
   shared: {
